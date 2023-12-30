@@ -11,10 +11,10 @@ function Judges() {
       <h1 className="text-white md:text-7xl text-4xl md:mb-5 font-Michroma ">
         JU<span className="text-[#27A5EF]">DGES</span>
       </h1>
-      <div className="min-h-screen bg-black flex flex-col justify-center py-6 sm:py-12">
-        <div className="px-20 max-md:px-20 lg:px-80 container">
-          <div className="md:grid md:px-6 md:gap-16 md:grid-cols-2 justify-center">
-            <article className="shadow-whit text-white p-6 mb-6 border border-gray-100 transition duration-300 group transform hover:-translate-y-2 hover:shadow-2xl rounded-2xl cursor-pointer">
+      <div className="w-full bg-black flex flex-col justify-center py-6 sm:py-12">
+        <div className="px-20 max-md:px-20 lg:px-48 container">
+          <div className="md:grid  md:gap-16 md:grid-cols-2 justify-center">
+            <article className="shadow-whit w-full text-white p-6 mb-6 border border-gray-100 transition duration-300 group transform hover:-translate-y-2 hover:shadow-2xl rounded-2xl cursor-pointer">
               <div className="relative mb-4 rounded-2x">
                 <img
                   className="max-h-56 rounded-2xl w-full object-scale-down transition-transform duration-300 transform group-hover:scale-105"

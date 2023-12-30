@@ -8,7 +8,7 @@ import ValueCreed from "../imageForWebsite/ValueCreed.png"
 
 function Sponsor() {
   return (
-    <div className="font-Michroma mb-72 md:mb-96 min-h-screen ">
+    <div className="font-Michroma mb-40 md:mb-96">
       <div className="relative bg h-screen mt-10">
         <img
           src={p3}
@@ -76,7 +76,7 @@ function Sponsor() {
             </div>
             <div className="flex flex-col items-center justify-center mt-2">
               <p className="text-white text-2xl max-md:text-sm text-center whitespace-nowrap">
-                Wolfram 
+                Wolfram
               </p>
             </div>
           </div>
