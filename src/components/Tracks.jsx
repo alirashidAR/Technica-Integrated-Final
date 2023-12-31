@@ -26,13 +26,13 @@ function Tracks() {
 
   return (
     <div
-      className="cursor-none relative h-screen mb-8 mt-4 sm:mt-6 md:mt-8 lg:mt-12"
+      className="w-screen cursor-none relative h-screen sm:mt-6 md:mt-8 lg:mt-12"
       id="tracks"
     >
       <img
         src={p2}
         alt="Comet"
-        className="comet absolute bottom-52 max-md:left-32 left-56 md:w-1/12 w-16"
+        className="comet absolute bottom-52 max-md:left-10 left-56 md:w-1/12 w-16"
       />
       <CustomeCursor />
       <div className="relative inset-0 flex justify-left ">
@@ -45,7 +45,7 @@ function Tracks() {
       <div
         className={`absolute ${
           isMobile
-            ? "top-[22%] right-[40%] w-1 h-1/4"
+            ? " max-md:top-[10%] top-[22%] right-[48%] w-1 h-1/4"
             : "top-[15%] left-2/3 h-1/2 md:top-[30%] md:left-3/4 md:transform md:-translate-x-1/2 md:h-1/4 lg:left-[80%] lg:h-1/8 lg:top:[30%"
         } flex flex-col gap-0 md:gap-4 lg:gap-0`}
       >

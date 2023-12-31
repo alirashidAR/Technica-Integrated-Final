@@ -28,7 +28,7 @@ export const NavMobile = () => {
         <Hamburger toggled={isOpen} size={20} toggle={setOpen} color="#fff" />
       </div>
       <div
-        className={`fixed left-0 shadow-4xl right-0 top-[3.5rem] p-5 pt-[2rem] bg-black opacity-85 ${
+        className={` w-screen fixed left-0 shadow-4xl right-0 top-[3.5rem] p-5 pt-[2rem] bg-black opacity-85 ${
           isOpen ? "block" : "hidden"
         }`}
       >
@@ -36,7 +36,7 @@ export const NavMobile = () => {
           {routes.map((route, idx) => (
             <li
               key={route.title}
-              className="w-full p-[0.08rem]  border-b-2 hover:border-black transition-all duration-500   backdrop-blur-3xl"
+              className="w-screnn p-[0.08rem]  border-b-2 hover:border-black transition-all duration-500   backdrop-blur-3xl"
             >
               <a
                 onClick={() => setOpen((prev) => !prev)}

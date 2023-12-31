@@ -35,14 +35,13 @@ function Schedule() {
     };
 
   return (
-    <>
       <div className="flex flex-col md:flex-row md:pt-14 mt-4 sm:mt-6 md:mt-10 lg:mt-16">
         <div className="Mainapp flex flex-col text-white ml-4 md:ml-20">
           <div className="Schtitle font-Michroma text-3xl md:text-5xl flex justify-center items-center pt-8 md:pt-40 pr-4 ">
             <span className="heading heading1">SCHE</span>
             <span className="text-[#27A5EF] heading heading2">DULE</span>
           </div>
-          <div className="mainBody flex justify-center md:justify-start items-center md:items-start pt-8 md:pt-40 pr-4 md:pr-64 pb-8">
+          <div className="mainBody max-md:mt-10 flex justify-center md:justify-start items-center md:items-start pt-8 md:pt-40 max-md:pl-20 md:pr-64 pb-8">
             <div className="daycon flex flex-col md:pl-20">
               <div className="day1 flex flex-col mb-6 md:ml-72 md:mt-20">
                 <div
@@ -51,7 +50,7 @@ function Schedule() {
                 >
                   <div className="text-left md:pb-10 ">DAY - 1</div>
                 </div>
-                <div className="daycon flex flex-col w-96">
+                <div className="daycon flex flex-col w-80 ">
                   {dayContent.day1.map((content, index) => (
                     <div
                       key={index}
@@ -73,7 +72,7 @@ function Schedule() {
                 <div className="daytitle font-Changa text-4xl md:text-7xl text-slate-200 underline underline-offset-4 font-thin hover:text-7xl md:hover:text-8xl duration-200 delay-100 md:mt-64">
                   <h1 className="text-left pb-10 md:pt-8">DAY - 2</h1>
                 </div>
-                <div className="daycon flex flex-col md:pb-40 w-96">
+                <div className="daycon flex flex-col md:pb-40 w-80 ">
                   {dayContent.day2.map((content, index) => (
                     <div
                       key={index}
@@ -95,7 +94,7 @@ function Schedule() {
                 <div className="daytitle font-Changa text-4xl md:text-7xl text-slate-200 underline underline-offset-4 font-thin hover:text-7xl md:hover:text-8xl duration-200 delay-100 md:mt-20">
                   <h1 className="text-left pb-10 md:pt-3">DAY - 3</h1>
                 </div>
-                <div className="daycon flex flex-col md:pb-40 w-96">
+                <div className="daycon flex flex-col md:pb-40 w-80 ">
                   {dayContent.day3.map((content, index) => (
                     <div
                       key={index}
@@ -117,7 +116,6 @@ function Schedule() {
           </div>
         </div>
       </div>
-    </>
   );
 }
 

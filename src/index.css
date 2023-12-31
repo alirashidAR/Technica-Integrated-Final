@@ -10,7 +10,6 @@ body {
     background-color: #000000;
    background-repeat: no-repeat, repeat;
     background-size: cover;
-    overflow: hidden;
     cursor: none ;
     
 }
@@ -18,7 +17,6 @@ body {
 body {
   background-color: #000;
   position: relative;
-  overflow: hidden;
   margin: 0;
   padding: 0;
 }
@@ -224,7 +222,7 @@ html {
 .schedule-text{
   font-family: 'Changa One', cursive;
   font-size: 20px;
-  color: #27A5EF;
+  color: #ffffff;
   text-align: center;
 }
 

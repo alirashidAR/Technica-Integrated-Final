@@ -14,7 +14,7 @@ export default function FAQ() {
             <img
               src={p2}
               alt="Comet"
-              className="comet absolute bottom-92 right-16  md:w-1/12 w-16"
+              className="comet absolute bottom-92 right-16 max-sm:right-4 md:w-1/12 w-16"
             />
       <h1 className='text-white mb-8 text-8xl md:mt-12 md:mb-12 max-md:text-4xl'>FAQs</h1>
       <div className="flex-grow flex flex-col justify-center items-center text-center py-10 ">

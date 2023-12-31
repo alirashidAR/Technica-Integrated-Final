@@ -8,7 +8,7 @@ import ValueCreed from "../imageForWebsite/ValueCreed.png"
 
 function Sponsor() {
   return (
-    <div className="font-Michroma mb-72 md:mb-96 min-h-screen ">
+    <div className="font-Michroma  max-md:mb-16 md:mb-96 min-h-screen ">
       <div className="relative bg h-screen mt-10">
         <img
           src={p3}
