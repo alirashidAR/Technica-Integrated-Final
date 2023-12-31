@@ -45,7 +45,7 @@ function Tracks() {
       <div
         className={`absolute ${
           isMobile
-            ? " max-md:top-[10%] top-[22%] right-[48%] w-1 h-1/4"
+            ? " max-md:top-[10%] top-[22%] right-[60%] w-1 h-1/4"
             : "top-[15%] left-2/3 h-1/2 md:top-[30%] md:left-3/4 md:transform md:-translate-x-1/2 md:h-1/4 lg:left-[80%] lg:h-1/8 lg:top:[30%"
         } flex flex-col gap-0 md:gap-4 lg:gap-0`}
       >
