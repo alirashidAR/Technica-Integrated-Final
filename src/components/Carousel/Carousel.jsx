@@ -19,7 +19,7 @@ export default function Carroussel(props) {
   }, [props.offset, props.showArrows]);
 
   return (
-    <div className="pt-20 "
+    <div className="max-md:pt-0 pt-20 "
       style={{ width: props.width, height: props.height, margin: props.margin }}
     >
       <Carousel
