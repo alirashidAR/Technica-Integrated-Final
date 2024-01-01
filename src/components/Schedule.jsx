@@ -35,87 +35,87 @@ function Schedule() {
     };
 
   return (
-      <div className="flex flex-col md:flex-row md:pt-14 mt-4 sm:mt-6 md:mt-10 lg:mt-16">
-        <div className="Mainapp flex flex-col text-white ml-4 md:ml-20">
-          <div className="Schtitle font-Michroma text-3xl md:text-5xl flex justify-center items-center pt-8 md:pt-40 pr-4 ">
-            <span className="heading heading1">SCHE</span>
-            <span className="text-[#27A5EF] heading heading2">DULE</span>
-          </div>
-          <div className="mainBody w-screen pr-12 max-md:pl-8 max-md:mt-10 flex justify-start items-start pt-8 md:pt-40 md:pr-64 pb-8">
-            <div className="daycon flex flex-col md:pl-20 w-44">
-              <div className="day1 flex flex-col mb-6 md:ml-72 md:mt-20">
-                <div
-                  ref={scroll.ref}
-                  className="daytitle font-Changa text-4xl md:text-7xl text-slate-200 underline underline-offset-4 font-thin hover:text-7xl md:hover:text-8xl duration-300 delay-100 mb-4"
-                >
-                  <div className="text-left md:pb-10 md:w-60 ">DAY - 1</div>
-                </div>
-                <div className="daycon flex flex-col w-screen pr-12 max-md:pl-8 ">
-                  {dayContent.day1.map((content, index) => (
-                    <div
-                      key={index}
-                      className="content flex text-sm md:text-base md:hover:text-lg duration-200 delay-100 mb-2"
-                    >
-                      <div className="p-2 shrink-0">
-                        <img
-                          src={bulletin}
-                          alt="bulletin"
-                          className="h-5 animate-spin-slow hover:animate-spin delay-150"
-                        />
-                      </div>
-                      <div className="p-2 schedule-text">{content}</div>
-                    </div>
-                  ))}
-                </div>
+    <div className="flex flex-col md:flex-row md:pt-14 -mt-48 sm:mt-6 md:mt-10 lg:mt-16">
+      <div className="Mainapp flex flex-col text-white ml-4 md:ml-20">
+        <div className="Schtitle font-Michroma text-3xl md:text-5xl flex justify-center items-center  md:pt-40 pr-4 ">
+          <span className="heading heading1">SCHE</span>
+          <span className="text-[#27A5EF] heading heading2">DULE</span>
+        </div>
+        <div className="mainBody w-screen pr-12 max-md:pl-8 max-md:mt-10 flex justify-start items-start pt-8 md:pt-40 md:pr-64 pb-8">
+          <div className="daycon flex flex-col md:pl-20 w-44">
+            <div className="day1 flex flex-col mb-6 md:ml-72 md:mt-20">
+              <div
+                ref={scroll.ref}
+                className="daytitle font-Changa text-4xl md:text-7xl text-slate-200 underline underline-offset-4 font-thin hover:text-7xl md:hover:text-8xl duration-300 delay-100 mb-4"
+              >
+                <div className="text-left md:pb-10 md:w-60 ">DAY - 1</div>
               </div>
-              <div className="day2 flex flex-col mt-4  md:ml-20">
-                <div className="daytitle font-Changa text-4xl md:text-7xl text-slate-200 underline underline-offset-4 font-thin hover:text-7xl md:hover:text-8xl duration-200 delay-100 md:mt-64">
-                  <h1 className="text-left pb-10 md:w-60 md:pt-8">DAY - 2</h1>
-                </div>
-                <div className="daycon flex flex-col md:pb-40 w-screen pr-12 max-md:pl-8 ">
-                  {dayContent.day2.map((content, index) => (
-                    <div
-                      key={index}
-                      className="content flex text-sm md:text-base md:hover:text-lg duration-200 delay-100 mb-2"
-                    >
-                      <div className="p-2 shrink-0">
-                        <img
-                          src={bulletin}
-                          alt="bulletin"
-                          className="h-5 animate-spin-slow hover:animate-spin-slow delay-150"
-                        />
-                      </div>
-                      <div className="p-2 schedule-text">{content}</div>
+              <div className="daycon flex flex-col w-screen pr-12 max-md:pl-8 ">
+                {dayContent.day1.map((content, index) => (
+                  <div
+                    key={index}
+                    className="content flex text-sm md:text-base md:hover:text-lg duration-200 delay-100 mb-2"
+                  >
+                    <div className="p-2 shrink-0">
+                      <img
+                        src={bulletin}
+                        alt="bulletin"
+                        className="h-5 animate-spin-slow hover:animate-spin delay-150"
+                      />
                     </div>
-                  ))}
-                </div>
+                    <div className="p-2 schedule-text">{content}</div>
+                  </div>
+                ))}
               </div>
-              <div className="day3 flex flex-col mt-4 md:ml-60">
-                <div className="daytitle font-Changa text-4xl md:text-7xl text-slate-200 underline underline-offset-4 font-thin hover:text-7xl md:hover:text-8xl duration-200 delay-100 md:mt-20">
-                  <h1 className="text-left pb-10 md:w-60 md:pt-3">DAY - 3</h1>
-                </div>
-                <div className="daycon flex flex-col md:pb-40 w-screen pr-12 max-md:pl-8 ">
-                  {dayContent.day3.map((content, index) => (
-                    <div
-                      key={index}
-                      className="content flex text-sm md:text-base md:hover:text-lg duration-200 delay-100 mb-2"
-                    >
-                      <div className="p-2 shrink-0">
-                        <img
-                          src={bulletin}
-                          alt="bulletin"
-                          className="h-5 animate-spin-slow hover:animate-spin-slow delay-150"
-                        />
-                      </div>
-                      <div className="p-2 schedule-text">{content}</div>
+            </div>
+            <div className="day2 flex flex-col mt-4  md:ml-20">
+              <div className="daytitle font-Changa text-4xl md:text-7xl text-slate-200 underline underline-offset-4 font-thin hover:text-7xl md:hover:text-8xl duration-200 delay-100 md:mt-64">
+                <h1 className="text-left pb-10 md:w-60 md:pt-8">DAY - 2</h1>
+              </div>
+              <div className="daycon flex flex-col md:pb-40 w-screen pr-12 max-md:pl-8 ">
+                {dayContent.day2.map((content, index) => (
+                  <div
+                    key={index}
+                    className="content flex text-sm md:text-base md:hover:text-lg duration-200 delay-100 mb-2"
+                  >
+                    <div className="p-2 shrink-0">
+                      <img
+                        src={bulletin}
+                        alt="bulletin"
+                        className="h-5 animate-spin-slow hover:animate-spin-slow delay-150"
+                      />
                     </div>
-                  ))}
-                </div>
+                    <div className="p-2 schedule-text">{content}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div className="day3 flex flex-col mt-4 md:ml-60">
+              <div className="daytitle font-Changa text-4xl md:text-7xl text-slate-200 underline underline-offset-4 font-thin hover:text-7xl md:hover:text-8xl duration-200 delay-100 md:mt-20">
+                <h1 className="text-left pb-10 md:w-60 md:pt-3">DAY - 3</h1>
+              </div>
+              <div className="daycon flex flex-col md:pb-40 w-screen pr-12 max-md:pl-8 ">
+                {dayContent.day3.map((content, index) => (
+                  <div
+                    key={index}
+                    className="content flex text-sm md:text-base md:hover:text-lg duration-200 delay-100 mb-2"
+                  >
+                    <div className="p-2 shrink-0">
+                      <img
+                        src={bulletin}
+                        alt="bulletin"
+                        className="h-5 animate-spin-slow hover:animate-spin-slow delay-150"
+                      />
+                    </div>
+                    <div className="p-2 schedule-text">{content}</div>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
   );
 }
 
