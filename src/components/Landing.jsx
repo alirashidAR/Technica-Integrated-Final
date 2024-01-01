@@ -17,7 +17,7 @@ function Landing() {
           waveHeight: 20,
           shininess: 50,
           waveSpeed: 1.5,
-          zoom: 0.75
+          zoom: 0.75,
         })
       );
     }
@@ -26,7 +26,7 @@ function Landing() {
     };
   }, [vantaEffect]);
   return (
-    <div className="text-center min-h-screen" ref={vantaRef}>
+    <div className=" text-center min-h-screen" ref={vantaRef}>
       <Navbar />
       <div className=" flex  justify-center items-center mt-8">
         <img
