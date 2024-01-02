@@ -228,6 +228,9 @@ html {
   body{
     cursor: default;
   }
+  .schedule-text {
+    font-size: 10px;
+  }
 }
 
 
@@ -237,9 +240,12 @@ html {
   color: #ffffff;
   text-align:left;
 }
-
-@media (max-width: 768px) {
-  .schedule-text {
-    font-size: 10px;
+abc{
+  margin-top: 0;
+}
+@media  ( (min-width: 410px) and (max-width: 768px)) {
+  .abc{
+    margin-top: -24rem;
   }
+  
 }
