@@ -26,7 +26,7 @@ function Tracks() {
 
   return (
     <div
-      className="w-screen cursor-none relative -mt-24 h-screen sm:mt-6 md:mt-8 lg:mt-12"
+      className="w-screen cursor-none relative max-[765px]:min-[410px]:-mt-48 max-[410px]:min-[390px]:-mt-48 -mt-24 h-screen sm:mt-6 md:mt-8 lg:mt-12"
       id="tracks"
     >
       <img

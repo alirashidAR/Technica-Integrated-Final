@@ -4,7 +4,7 @@ import p2 from "../imageForWebsite/comets/p2.png";
 
 export default function FAQ() {
   return (
-    <div className=" font-Michroma bg-cover bg-center flex flex-col max-md:flex-col my-0  md:mb-10 md:mt-20">
+    <div className=" font-Michroma bg-cover bg-center max-[650px]:min-[410px]:mt-2 max-[410px]:min-[390px]:mt-4 flex flex-col max-md:flex-col my-0  md:mb-10 md:mt-20">
       <img
         src={p1}
         alt="Comet"
