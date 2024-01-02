@@ -20,7 +20,7 @@ function About() {
 
   return (
     <div
-      className=" relative h-screen mb-2 max-md:-mt-8 -mt-35"
+      className=" relative h-screen max-sm:-mt-4 mb-2 max-md:-mt-36 -mt-32"
       id="about"
       style={{ zIndex: 40000 }}
     >

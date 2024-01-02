@@ -19,7 +19,7 @@ function Prizes() {
   }, []);
 
   return (
-    <div id="prizes" className=" mb-16  max-md:mt-24 md:mt-64 ">
+    <div id="prizes" className=" max-sm:-mt-40 mb-16  max-md:-mt-80 md:mt-64 ">
       <p className="Schtitle font-Michroma text-center mb-8">
         <span className="heading heading1">PR</span>
         <span className="heading heading2">IZES</span>
