@@ -38,12 +38,12 @@ function About() {
       <img
         src={p1}
         alt="Comet"
-        className="comet absolute bottom-0 max-md:bottom-24 right-0 md:w-1/12 w-16"
+        className="comet absolute -z-20 bottom-0 max-md:bottom-24 right-0 md:w-1/12 w-16"
       />
       <img
         src={p2}
         alt="Comet"
-        className="comet absolute top-10 max-md:top-20 left-0 md:w-1/12 w-16"
+        className="comet absolute -z-20 top-10 max-md:top-20 left-0 md:w-1/12 w-16"
       />
     </div>
   );

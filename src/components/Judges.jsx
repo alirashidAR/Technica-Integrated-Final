@@ -1,9 +1,8 @@
 import judge1 from "../imageForWebsite/judge1.jpg";
-import judge2 from "../imageForWebsite/judge2.jpeg";
 import judge3 from "../imageForWebsite/judge3.jpeg";
 import LinkedInLink from "./LinkdinLink";
 import { FaUserTie } from "react-icons/fa";
-import { BsPersonLinesFill, BsPersonVideo2 } from "react-icons/bs";
+import { BsPersonLinesFill } from "react-icons/bs";
 
 function Judges() {
   return (
