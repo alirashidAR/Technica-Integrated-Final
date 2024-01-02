@@ -8,12 +8,12 @@ export default function FAQ() {
       <img
         src={p1}
         alt="Comet"
-        className="comet absolute bottom-36 left-80  md:w-1/12 w-16 max-md:hidden"
+        className="comet absolute -z-20 bottom-36 left-80  md:w-1/12 w-16 max-md:hidden"
       />
       <img
         src={p2}
         alt="Comet"
-        className="comet absolute bottom-92 right-16  md:w-1/12 w-16"
+        className="comet absolute -z-20 bottom-92 right-16  md:w-1/12 w-16"
       />
       <h1 className="text-white mb-8 text-8xl md:mt-12 md:mb-12 max-md:text-4xl">
         FAQs

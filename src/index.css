@@ -224,6 +224,9 @@ html {
   .custom-cursor {
     display: none;
   }
+  body{
+    cursor: default;
+  }
 }
 
 

@@ -19,7 +19,7 @@ function Prizes() {
   }, []);
 
   return (
-    <div id="prizes" className=" max-sm:-mt-40 mb-16  max-md:-mt-80 md:mt-64 ">
+    <div id="prizes" className="  max-sm:-mt-40 mb-16  max-md:-mt-80 md:mt-64 ">
       <p className="Schtitle font-Michroma text-center mb-8">
         <span className="heading heading1">PR</span>
         <span className="heading heading2">IZES</span>
@@ -34,12 +34,12 @@ function Prizes() {
         <img
           src={p4}
           alt="Comet"
-          className="comet absolute bottom-24 max-md:left-0 left-6 md:w-1/12 w-16"
+          className="comet -z-20 absolute bottom-24 max-md:left-0 left-6 md:w-1/12 w-16"
         />
         <img
           src={p1}
           alt="Comet"
-          className="comet absolute top-24 max-md:right-3 right-8 md:w-1/12 w-16"
+          className="comet -z-20 absolute top-24 max-md:right-3 right-8 md:w-1/12 w-16"
         />
       </div>
     </div>

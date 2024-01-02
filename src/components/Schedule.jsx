@@ -35,13 +35,13 @@ function Schedule() {
     };
 
   return (
-    <div className="flex flex-col max-sm:-mt-40   md:flex-row md:pt-14 max-md:-mt-64 sm:mt-6 md:mt-10 lg:mt-16 ">
+    <div className="flex flex-col   max-sm:-mt-40   md:flex-row md:pt-14 max-md:-mt-64 sm:mt-6 md:mt-10 lg:mt-16 ">
       <div className="Mainapp flex flex-col text-white ml-4 md:ml-20">
         <div className="Schtitle font-Michroma text-3xl md:text-5xl flex justify-center items-center  md:pt-40 pr-4 ">
           <span className="heading heading1">SCHE</span>
           <span className="text-[#27A5EF] heading heading2">DULE</span>
         </div>
-        <div className="mainBody w-screen pr-12 max-md:pl-8 max-md:mt-10 flex justify-start items-start pt-8 md:pt-40 md:pr-64 pb-8">
+        <div className="mainBody  w-screen pr-12 max-md:pl-8 max-md:mt-10 flex justify-start items-start pt-8 md:pt-40 md:pr-64 pb-8">
           <div className="daycon flex flex-col md:pl-20 w-44">
             <div className="day1 flex flex-col mb-6 md:ml-72 md:mt-20">
               <div

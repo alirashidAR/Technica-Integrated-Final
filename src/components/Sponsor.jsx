@@ -1,10 +1,9 @@
-import google from "../imageForWebsite/google.webp";
 import p2 from "../imageForWebsite/comets/p2.png";
 import p3 from "../imageForWebsite/comets/p3.png";
 import rosen from "../imageForWebsite/rosen.png";
 import echo from "../imageForWebsite/echo.png";
 import wolfram from "../imageForWebsite/wolfram.png";
-import ValueCreed from "../imageForWebsite/ValueCreed.png"
+import ValueCreed from "../imageForWebsite/ValueCreed.png";
 
 function Sponsor() {
   return (
@@ -13,7 +12,7 @@ function Sponsor() {
         <img
           src={p3}
           alt="Comet"
-          className="comet absolute top-72 left-72  md:w-1/12 w-16 max-md:hidden "
+          className="comet absolute top-72 left-72 -z-20  md:w-1/12 w-16 max-md:hidden "
         />
         <p className="text-center mb-8">
           <span className="heading heading1">SPO</span>
