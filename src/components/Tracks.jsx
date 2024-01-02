@@ -32,7 +32,7 @@ function Tracks() {
       <img
         src={p2}
         alt="Comet"
-        className="comet absolute bottom-52 max-md:left-10 left-56 md:w-1/12 w-16"
+        className="comet absolute -z-20 bottom-52 max-md:left-10 left-56 md:w-1/12 w-16"
       />
       <CustomeCursor />
       <div className="relative inset-0 flex justify-left ">

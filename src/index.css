@@ -37,6 +37,7 @@ body {
   100% { opacity: 0; }
 }
 
+
 /* Styles for the comets */
 .comet {
   position: absolute;
@@ -223,6 +224,9 @@ html {
 @media (max-width: 768px) {
   .custom-cursor {
     display: none;
+  }
+  body{
+    cursor: default;
   }
 }
 

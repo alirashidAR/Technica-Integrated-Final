@@ -1,19 +1,18 @@
-import google from "../imageForWebsite/google.webp";
 import p2 from "../imageForWebsite/comets/p2.png";
 import p3 from "../imageForWebsite/comets/p3.png";
 import rosen from "../imageForWebsite/rosen.png";
 import echo from "../imageForWebsite/echo.png";
 import wolfram from "../imageForWebsite/wolfram.png";
-import ValueCreed from "../imageForWebsite/ValueCreed.png"
+import ValueCreed from "../imageForWebsite/ValueCreed.png";
 
 function Sponsor() {
   return (
-    <div className="font-Michroma mb-40 md:mb-96">
+    <div className=" font-Michroma mb-5 md:mb-10">
       <div className="relative bg h-screen mt-10">
         <img
           src={p3}
           alt="Comet"
-          className="comet absolute top-72 left-72  md:w-1/12 w-16 max-md:hidden "
+          className="comet absolute top-72 left-72 -z-20  md:w-1/12 w-16 max-md:hidden "
         />
         <p className="text-center mb-8">
           <span className="heading heading1">SPO</span>
@@ -77,37 +76,6 @@ function Sponsor() {
             <div className="flex flex-col items-center justify-center mt-2">
               <p className="text-white text-2xl max-md:text-sm text-center whitespace-nowrap">
                 Wolfram
-              </p>
-            </div>
-          </div>
-          <h2 className="text-white md:text-3xl col-span-4 md:mt-8 ">
-            Outreach Partners
-          </h2>
-          <div className="col-span-2 flex flex-col items-center justify-center ">
-            <div className="h-20 w-20 md:h-40 md:w-40 rounded-full bg-blue-500 flex items-center justify-center">
-              <img
-                className="rounded-full border-8 border-blue-500"
-                src={google}
-                alt="Google Logo"
-              />
-            </div>
-            <div className="flex flex-col items-center justify-center mt-2">
-              <p className="text-white text-2xl max-md:text-sm text-center whitespace-nowrap">
-                Value Creed
-              </p>
-            </div>
-          </div>
-          <div className="col-span-2 flex flex-col items-center justify-center max-md:mr-28">
-            <div className="h-20 w-20 md:h-40 md:w-40 rounded-full bg-blue-500 flex items-center justify-center">
-              <img
-                className="rounded-full border-8 border-blue-500"
-                src={google}
-                alt="Google Logo"
-              />
-            </div>
-            <div className="flex flex-col items-center justify-center mt-2">
-              <p className="text-white text-2xl max-md:text-sm text-center whitespace-nowrap">
-                Value Creed
               </p>
             </div>
           </div>
