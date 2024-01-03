@@ -83,7 +83,7 @@ function Sponsor() {
         <img
           src={p2}
           alt="Comet"
-          className="comet absolute bottom-32 right-28 md:w-1/12 w-16 max-md:hidden"
+          className="comet absolute -z-20 bottom-32 right-28 md:w-1/12 w-16 max-md:hidden"
         />
       </div>
     </div>
