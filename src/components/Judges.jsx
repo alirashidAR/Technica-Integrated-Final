@@ -76,7 +76,7 @@ function Judges() {
                   </div>
                 </div>
                 <div className="flex justify-end">
-                  <div className="text-sm flex items-center gap-2 text-white">
+                  <div className="text-sm flex items-center gap-2 text-white pl-4">
                     Director of Technology
                     <FaUserTie />
                   </div>
