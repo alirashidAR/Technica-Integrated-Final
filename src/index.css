@@ -175,7 +175,7 @@ html {
 }
 
 
-@media (min-width: 1024px) {
+@media (min-width: 780px) {
   .Mainapp{
     background : url("../public/images/finalimage.webp");
     background-repeat: no-repeat, repeat;
