@@ -13,7 +13,7 @@ const FAQList = () => {
       answer: "Up to 4 people large! Pro Tip: Aim to have a mix of people with both design and developer skills.",
     },
     {
-      question: 'Do I keep working throughout the event',
+      question: 'Do I keep working throughout the event?',
       answer: "Of course not. We have numerous fun-filled mini-events in the bag for you. Stay tuned to our social media handles for detailed updates on the mini-events.",
     },
     {
