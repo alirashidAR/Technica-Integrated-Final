@@ -39,7 +39,7 @@ function Schedule() {
       <div className="Mainapp flex flex-col text-white ml-4 md:ml-20">
         <div className="Schtitle font-Michroma text-3xl md:text-5xl flex justify-center items-center  md:pt-40 pr-4 ">
           <span className="heading heading1 ">SCHE</span>
-          <span className="text-[#27A5EF] heading heading2 md:mr-24">DULE</span>
+          <span className="text-[#27A5EF] heading heading2 md:mr-32">DULE</span>
         </div>
         <div className="mainBody  w-screen pr-12 max-md:pl-8 max-md:mt-10 flex justify-start items-start pt-8 md:pt-40 md:pr-64 pb-8">
           <div className="daycon flex flex-col md:pl-20 w-44">
