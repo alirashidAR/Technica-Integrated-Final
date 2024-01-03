@@ -40,7 +40,7 @@ function Landing() {
       </h1>
       <div className="p-3">
         <h2 className="text-white md:text-3xl text-2xl p-4">
-          Initiate | <span className="text-[#27A5EF]">Innovate</span> | Inspire
+          Innovate | <span className="text-[#27A5EF]">Ideate</span> | Inspire
         </h2>
       </div>
       <h3 className="text-white text-2xl">11th - 13th January 2024</h3>

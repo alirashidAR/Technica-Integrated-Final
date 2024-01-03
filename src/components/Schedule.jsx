@@ -37,7 +37,7 @@ function Schedule() {
   return (
     <div className="max-[765px]:min-[650px]:-mt-96  max-[650px]:min-[410px]:-mt-80 max-[410px]:min-[390px]:-mt-72 flex flex-col   max-sm:-mt-40   md:flex-row md:pt-14 max-md:-mt-64 sm:mt-6 md:mt-10 lg:mt-16 ">
       <div className="Mainapp flex flex-col text-white ml-4 md:ml-20">
-        <div className="Schtitle font-Michroma text-3xl md:text-5xl flex justify-center items-center  md:pt-40 pr-4 ">
+        <div className="Schtitle p-5 md:p-0 font-Michroma text-3xl md:text-5xl flex justify-center items-center  md:pt-40 pr-4 ">
           <span className="heading heading1">SCHE</span>
           <span className="text-[#27A5EF] heading heading2">DULE</span>
         </div>
