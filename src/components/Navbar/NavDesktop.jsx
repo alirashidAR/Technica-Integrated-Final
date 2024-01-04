@@ -37,7 +37,7 @@ export const NavDesktop = () => {
             <li key={title}>
               <a
                 href={href}
-                className="flex items-center gap-1 hover:text-[#27A5EF] hover:text-3xl duration-500 transition-all text-white font-poppins"
+                className="flex items-center gap-1 hover:text-[#27A5EF] hover:scale-110 duration-500 transition-all text-white font-poppins"
                 onClick={(e) => handleNavLinkClick(e, href)}
               >
                 {title}
