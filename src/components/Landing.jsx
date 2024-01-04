@@ -28,23 +28,29 @@ function Landing() {
   return (
     <div className=" text-center min-h-screen" ref={vantaRef}>
       <Navbar />
-      <div className=" flex  justify-center items-center mt-8">
+      <div className="text-white text-xl font-poppins">
+        <div className=" font-bold">Value Creed</div>
+        <div className=" ">&</div>
+        <div className=" font-bold">Indian Society for Technical Education</div>
+        <div className=" ">presents</div>
+      </div>
+      <div className=" flex  justify-center items-center py-2">
         <img
           src="./images/Logo.webp"
-          className="md:h-72 h-64"
+          className="md:h-68 h-64"
           alt="logo of website"
         />
       </div>
-      <h1 className="text-white md:text-6xl text-4xl p-4 font-poppins text-center">
+      <h1 className="text-white md:text-6xl text-4xl pt-2 font-poppins text-center">
         T E C H <span className="text-[#27A5EF]">N I C A</span>
       </h1>
-      <div className="p-3">
-        <h2 className="text-white md:text-3xl text-2xl p-4">
+      <div className="pt-4">
+        <h2 className="text-white md:text-3xl text-2xl ">
           Innovate | <span className="text-[#27A5EF]">Ideate</span> | Inspire
         </h2>
       </div>
-      <h3 className="text-white text-2xl">11th - 13th January 2024</h3>
-      <div className="p-5 ">
+      <h3 className="text-white pt-4 text-2xl">11th - 13th January 2024</h3>
+      <div className="pt-4 ">
         <button
           type="button"
           name="Register"
