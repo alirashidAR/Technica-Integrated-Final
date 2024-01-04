@@ -37,13 +37,13 @@ function Schedule() {
   return (
     <div className="max-[765px]:min-[650px]:-mt-96  max-[650px]:min-[410px]:-mt-80 max-[410px]:min-[390px]:-mt-72 flex flex-col   max-sm:-mt-40   md:flex-row md:pt-14 max-md:-mt-64 sm:mt-6 md:mt-10 lg:mt-16 ">
       <div className="Mainapp flex flex-col text-white ml-4 md:ml-20">
-        <div className="Schtitle p-5 md:p-0 font-Michroma text-3xl md:text-5xl flex justify-center items-center  md:pt-40 pr-4 ">
+        <div className="Schtitle p-5 md:p-0 font-Michroma text-3xl md:text-5xl flex justify-center items-center  md:pt-44 md:pr-24 md:mr-14 ">
           <span className="heading heading1">SCHE</span>
           <span className="text-[#27A5EF] heading heading2">DULE</span>
         </div>
-        <div className="mainBody  w-screen pr-12 max-md:pl-8 max-md:mt-10 flex justify-start items-start pt-8 md:pt-40 md:pr-64 pb-8">
+        <div className="mainBody  w-screen pr-12 max-md:pl-8 max-md:mt-10 flex justify-start items-start  md:pt-40 md:pr-64 pb-8">
           <div className="daycon flex flex-col md:pl-20 w-44">
-            <div className="day1 flex flex-col mb-6 md:ml-72 md:mt-20">
+            <div className="day1 flex flex-col md:mb-6 md:ml-72 md:mt-20">
               <div
                 ref={scroll.ref}
                 className="daytitle font-Changa text-4xl md:text-7xl text-slate-200 underline underline-offset-4 font-thin hover:text-7xl md:hover:text-8xl duration-300 delay-100 mb-4"
