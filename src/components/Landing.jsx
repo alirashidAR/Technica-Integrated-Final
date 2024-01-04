@@ -37,7 +37,7 @@ function Landing() {
           Indian Society for
           <span className="text-[#27A5EF]"> Technical Education</span>
         </div>
-        <div className=" ">presents</div>
+        <div className="max-md:text-lg ">presents</div>
       </div>
       <div className=" flex  justify-center items-center py-2">
         <img
