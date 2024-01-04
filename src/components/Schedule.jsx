@@ -35,7 +35,7 @@ function Schedule() {
     };
 
   return (
-    <div className="max-[765px]:min-[650px]:-mt-96  max-[650px]:min-[410px]:-mt-80 max-[410px]:min-[390px]:-mt-72 flex flex-col   max-sm:-mt-40   md:flex-row md:pt-14 max-md:-mt-64 sm:mt-6 md:mt-10 lg:mt-16 ">
+    <div className="max-[765px]:min-[650px]:-mt-96  max-[650px]:min-[410px]:-mt-44 max-[410px]:min-[390px]:-mt-40 flex flex-col   max-sm:-mt-40   md:flex-row md:pt-14 max-md:-mt-64 sm:mt-6 md:mt-10 lg:mt-16 ">
       <div className="Mainapp flex flex-col text-white ml-4 md:ml-20">
         <div className="Schtitle p-5 md:p-0 font-Michroma text-3xl md:text-5xl flex justify-center items-center  md:pt-44 md:pr-24 md:mr-14 ">
           <span className="heading heading1">SCHE</span>
@@ -70,7 +70,7 @@ function Schedule() {
             </div>
             <div className="day2 flex flex-col mt-4  md:ml-20">
               <div className="daytitle font-Changa text-4xl md:text-7xl text-slate-200 underline underline-offset-4 font-thin hover:text-7xl md:hover:text-8xl duration-200 delay-100 md:mt-64">
-                <h1 className="text-left pb-10 md:w-60 md:pt-8">DAY - 2</h1>
+                <h1 className="text-left pb-5 md:pb-10 md:w-60 md:pt-8">DAY - 2</h1>
               </div>
               <div className="daycon flex flex-col md:pb-40 w-screen pr-12 max-md:pl-8 ">
                 {dayContent.day2.map((content, index) => (
@@ -92,7 +92,7 @@ function Schedule() {
             </div>
             <div className="day3 flex flex-col mt-4 md:ml-60">
               <div className="daytitle font-Changa text-4xl md:text-7xl text-slate-200 underline underline-offset-4 font-thin hover:text-7xl md:hover:text-8xl duration-200 delay-100 md:mt-20">
-                <h1 className="text-left pb-10 md:w-60 md:pt-3">DAY - 3</h1>
+                <h1 className="text-left pb-5 md:pb-10 md:w-60 md:pt-3">DAY - 3</h1>
               </div>
               <div className="daycon flex flex-col md:pb-40 w-screen pr-12 max-md:pl-8 ">
                 {dayContent.day3.map((content, index) => (
