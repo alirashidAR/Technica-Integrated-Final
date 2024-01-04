@@ -70,7 +70,7 @@ function Judges() {
                   <div className="flex flex-1">
                     <div>
                       <p className="text-sm font-semibold">
-                        Prassan <span className="text-[#27A5EF]">Iyer</span>
+                        Prasanna <span className="text-[#27A5EF]">Iyer</span>
                       </p>
                     </div>
                   </div>
