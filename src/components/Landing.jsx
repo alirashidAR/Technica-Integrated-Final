@@ -28,10 +28,15 @@ function Landing() {
   return (
     <div className=" text-center min-h-screen" ref={vantaRef}>
       <Navbar />
-      <div className="text-white text-xl font-poppins">
-        <div className=" font-bold">Value Creed</div>
+      <div className="text-white text-xl ont-poppins px-5">
+        <div className=" font-bold">
+          Value <span className="text-[#27A5EF]">Creed</span>
+        </div>
         <div className=" ">&</div>
-        <div className=" font-bold">Indian Society for Technical Education</div>
+        <div className=" font-bold">
+          Indian Society for
+          <span className="text-[#27A5EF]"> Technical Education</span>
+        </div>
         <div className=" ">presents</div>
       </div>
       <div className=" flex  justify-center items-center py-2">
